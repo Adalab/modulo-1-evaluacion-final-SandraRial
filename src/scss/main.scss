@@ -6,3 +6,15 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/index";
+
+* {
+  margin: 0;
+}
+
+.header__menu {
+  position: fixed;
+  margin: 36px 43px 136px 33px;
+  width: 24px;
+  height: 24px;
+  color: $color-primary;
+}
