@@ -1,0 +1,37 @@
+.articles {
+  background-color: $color-secondary;
+  font-family: $font-title1;
+  color: $color-primary;
+  height: 1108px;
+  width: 414px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  &__header {
+    width: 322px;
+    height: 113px;
+    margin: 0 0 37px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.neededs {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-title1;
+  &__image {
+    margin: 37px 121px 47px 111px;
+  }
+  &__title {
+    justify-content: center;
+  }
+  &__text {
+    align-items: center;
+    justify-items: center;
+  }
+}
