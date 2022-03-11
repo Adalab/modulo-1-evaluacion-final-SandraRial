@@ -5,12 +5,14 @@
   padding: 56px 28px 16px 110px;
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 .nav {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   align-items: flex-start;
+  gap: 8px;
   &__title {
     font-family: $font-title1;
   }
@@ -34,9 +36,13 @@
   &__item {
     color: $color-text-section;
     text-decoration: none;
+    padding: 15px 3px 5px;
   }
 }
 
 .header_point {
   color: $color-text-section;
+  // display: flex;
+  // justify-content: flex-end;
+  // align-content: flex-end;
 }

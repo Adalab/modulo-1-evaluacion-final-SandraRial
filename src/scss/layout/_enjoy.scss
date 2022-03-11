@@ -19,6 +19,18 @@
     text-align: center;
     padding: 10px 0 35px;
   }
+  &__button {
+    width: 176px;
+    height: 48px;
+    font-family: $font-title1;
+    background-color: $color-primary;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    border: none;
+  }
 }
 
 .bath__image {
