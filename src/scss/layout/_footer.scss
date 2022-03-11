@@ -1,11 +1,16 @@
 .footer {
   background-color: $color-primary;
-  color: $color-text-section;
+  color: $color-text-footer;
   width: 100%;
   padding: 56px 28px 16px 110px;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 74px;
+  }
 }
 .nav {
   display: flex;
@@ -23,7 +28,7 @@
     justify-content: flex-start;
     text-align: left;
     &--items {
-      color: $color-text-section;
+      color: $color-text-footer;
       text-decoration: none;
     }
   }
@@ -42,7 +47,6 @@
 
 .header_point {
   color: $color-text-section;
-  // display: flex;
-  // justify-content: flex-end;
-  // align-content: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
