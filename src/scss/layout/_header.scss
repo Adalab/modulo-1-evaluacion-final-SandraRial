@@ -41,5 +41,10 @@
       color: white;
       border: none;
     }
+    @media all and (min-width: 768px) {
+      display: flex;
+      align-items: flex-start;
+      padding-left: 147px;
+    }
   }
 }
