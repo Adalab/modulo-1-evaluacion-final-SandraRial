@@ -2,8 +2,8 @@
   background-color: $color-primary;
   color: $color-text-section;
   width: 100%;
-  height: 545px;
-  padding: 56px 28px 16px 115px;
+  height: 500px;
+  padding: 56px 28px 16px 110px;
   display: flex;
   flex-direction: column;
 }
@@ -17,17 +17,27 @@
   }
   &__list {
     font-family: $font-subtitle;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     text-align: left;
-    text-decoration: none;
-    &--item {
+    &--items {
+      color: $color-text-section;
       text-decoration: none;
     }
   }
 }
-
 .logos {
   display: flex;
   flex-direction: row;
   text-decoration: none;
   gap: 8px;
+  &__item {
+    color: $color-text-section;
+    text-decoration: none;
+  }
+}
+
+.header_point {
+  color: $color-text-section;
 }
