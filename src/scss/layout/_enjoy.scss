@@ -1,7 +1,29 @@
 .enjoy {
   background-color: $color-secondary;
+  color: $color-primary;
   width: 100%;
-  height: 500px;
-  padding: 87px 27px 200px;
-  margin-left: 40px;
+  height: 339px;
+  padding: 87px 27px 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-family: $font-title1;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    font-family: $font-subtitle;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 35px;
+  }
+  &__button {
+    background-color: $color-primary;
+    color: $color-text-section;
+    border: none;
+    padding: 10px;
+  }
 }
