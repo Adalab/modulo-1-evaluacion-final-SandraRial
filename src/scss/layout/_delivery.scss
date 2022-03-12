@@ -23,5 +23,9 @@
     padding-top: 20px;
     color: $color-text-section;
     text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+      color: $color-primary;
+    }
   }
 }

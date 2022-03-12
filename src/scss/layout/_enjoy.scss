@@ -23,19 +23,6 @@
       font-family: $font-subtitle;
       padding: 10px 0 35px;
     }
-    &--button {
-      width: 176px;
-      height: 48px;
-      font-family: $font-title1;
-      background-color: $color-primary;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      color: white;
-      border: none;
-      text-align: center;
-    }
     @media all and (min-width: 1280px) {
       width: 300px;
       align-items: start;

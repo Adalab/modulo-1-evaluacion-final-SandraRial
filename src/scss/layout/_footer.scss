@@ -45,9 +45,17 @@
   }
 }
 
-.header_point {
-  color: $color-text-section;
+.header_arrow {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+  &--icon {
+    color: $color-text-section;
+    transition: transform 0.5s;
+    &:hover {
+      cursor: pointer;
+      transform: rotate(360deg);
+      transform-origin: center;
+    }
+  }
 }

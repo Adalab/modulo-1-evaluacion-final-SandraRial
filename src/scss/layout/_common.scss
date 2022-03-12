@@ -1,0 +1,18 @@
+.buy_button {
+  width: 176px;
+  height: 48px;
+  font-family: $font-title1;
+  background-color: $color-primary;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: $color-text-section;
+  border: none;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+    background-color: $color-button-hover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}
