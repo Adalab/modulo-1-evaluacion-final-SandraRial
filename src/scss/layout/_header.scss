@@ -36,6 +36,8 @@
       @media all and (min-width: 1280px) {
         justify-content: start;
         gap: 15px;
+        position: fixed;
+        top: 0;
         &--link {
           display: block;
         }
