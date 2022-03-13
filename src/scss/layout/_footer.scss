@@ -18,11 +18,7 @@
   align-content: flex-start;
   align-items: flex-start;
   gap: 8px;
-  &__title {
-    font-family: $font-title1;
-  }
   &__list {
-    font-family: $font-subtitle;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

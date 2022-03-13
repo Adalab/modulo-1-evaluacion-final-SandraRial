@@ -1,6 +1,5 @@
 .articles {
   background-color: $color-secondary;
-  font-family: $font-title1;
   color: $color-primary;
   max-width: 100%;
   display: grid;
@@ -22,10 +21,8 @@
 }
 
 .neededs {
-  //display: grid;
   justify-content: center;
   align-content: center;
-  font-family: $font-title1;
   &__image {
     height: 99px;
     margin: 37px auto 47px auto;
@@ -41,21 +38,4 @@
     height: 96px;
     width: 180px;
   }
-
-  /*
-  @media all and (min-width: 768px) {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    .need_1 {
-      grid-column: 1/2;
-    }
-    .need_2 {
-      grid-column: 2/3;
-    }
-    .need_3 {
-      grid-column: 3/4;
-    }
-  }
-  */
 }

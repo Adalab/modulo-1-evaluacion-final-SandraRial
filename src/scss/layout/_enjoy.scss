@@ -16,11 +16,9 @@
     flex-direction: column;
     text-align: center;
     &--title {
-      font-family: $font-title1;
       font-weight: bold;
     }
     &--text {
-      font-family: $font-subtitle;
       padding: 10px 0 35px;
     }
     @media all and (min-width: 1280px) {
@@ -52,10 +50,8 @@
 
 .enjoy-bath {
   width: 100%;
-  //height: 643px;
   display: flex;
   flex-direction: column;
-  //justify-content: space-between;
   @media all and (min-width: 1280px) {
     flex-direction: row;
   }
