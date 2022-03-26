@@ -1,11 +1,15 @@
 .footer {
-  background-color: $color-primary;
-  color: $color-text-footer;
+  background-color: $color-tertiary;
+  color: $color-footer-black;
   width: 100%;
   padding: 56px 28px 16px 93px;
   display: flex;
-  flex-direction: column;
-  gap: 25px;
+  flex-direction: column-reverse;
+  gap: 45px;
+  &__title {
+    &--contact {
+    }
+  }
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-around;
@@ -24,8 +28,15 @@
     justify-content: flex-start;
     text-align: left;
     &--items {
-      color: $color-text-footer;
+      color: $color-footer-black;
       text-decoration: none;
+    }
+  }
+  @media all and(min-width:768px) {
+    &__title {
+      &--contact {
+        color: $color-text-section;
+      }
     }
   }
 }
