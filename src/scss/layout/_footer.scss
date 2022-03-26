@@ -23,9 +23,12 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    &--items {
-      color: $color-text-footer;
-      text-decoration: none;
+    list-style: none;
+    &--li {
+      &--items {
+        color: $color-text-footer;
+        text-decoration: none;
+      }
     }
   }
 }
